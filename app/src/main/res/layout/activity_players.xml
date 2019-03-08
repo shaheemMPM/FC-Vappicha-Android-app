@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/clPlayers"
+    android:layout_height="match_parent"
+    tools:context=".PlayersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorLightBg"
+            android:paddingTop="5dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="5dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvSreerag"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+                
+                <ImageView
+                    android:id="@+id/ivSreerag"
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sreerag"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/sreerag_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/sreerag_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/sreerag_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsSreerag"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvRamees"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/ivRamees"
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ramees"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/ramees_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/ramees_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/ramees_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsRamees"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvAnandu"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivAnandu"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anandu"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/anandu_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/anandu_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/anandu_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"
+                    android:id="@+id/goalsAnandu"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvAdithya"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivAdithya"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/adithya"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/adithya_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/adithya_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/adithya_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsAdithya"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvShabeel"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivShabeel"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shabeel"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/shabeel_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/shabeel_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/shabeel_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsShabeel"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvDharmajith"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/ivDharamajith"
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dharmajith"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/dharmajith_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/dharmajith_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/dharmajith_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsDharmajith"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvArshad"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivArshad"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/arshad"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/arshad_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/arshad_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/arshad_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsArshad"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvSudheesh"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivSudheesh"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sudheesh"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/sudheesh_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/sudheesh_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/sudheesh_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsSudheesh"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvFayis"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivFayis"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fayis"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/fayis_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/fayis_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/fayis_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsFayis"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvRex"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivRex"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rex"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/rex_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/rex_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/rex_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsRex"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvVyshnav"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivVyshanav"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vyshnav"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/vyshnav_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/vyshnav_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/vyshnav_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsVyshnav"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvJayaprakash"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="133dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/ivJayaprakash"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jayaprakash"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/logoBgSend"
+                    android:textSize="20sp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/jayaprakash_pos"
+                    android:layout_marginTop="46dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="70dp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jayaprakash_dep"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:text="@string/jayaprakash_jer"
+                    android:fontFamily="cursive"
+                    android:layout_marginStart="130dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/goalsJayaprakash"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="200dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

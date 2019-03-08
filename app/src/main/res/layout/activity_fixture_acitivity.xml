@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/clFixture"
+    android:layout_height="match_parent"
+    tools:context=".FixtureAcitivity">
+
+    <RelativeLayout
+        android:background="@color/fafa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/pureBlack">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/gsl"
+                android:contentDescription="@string/app_name"/>
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rlOurMatchBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/team_info_bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ourmatch"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/pureBlack"/>
+
+                <ImageView
+                    android:id="@+id/ivToggleIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="30dp"
+                    android:src="@drawable/ic_eye"/>
+            </RelativeLayout>
+
+            <android.support.v4.widget.NestedScrollView
+                android:visibility="gone"
+                android:id="@+id/nsvOurMatch"
+                android:background="@color/fafa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch4"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch8"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch11"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch16"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch20"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch22"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch25"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v4.widget.NestedScrollView>
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:background="@color/fafa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch1"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch2"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch3"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch4"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch5"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch6"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch7"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch8"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch9"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch10"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch11"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch12"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch13"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch14"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch15"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch16"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch17"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch18"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch18"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch19"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch19"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch20"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch21"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch21"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch22"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch23"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch23"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch24"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch24"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline1"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch25"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch26"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch26"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch27"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch27"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/timeline2"/>
+                        <TextView
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeMatch28"/>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:paddingStart="18dp"
+                                android:paddingEnd="0dp"
+                                android:textColor="@color/colorAccent"
+                                android:fontFamily="monospace"
+                                android:text="@string/playMatch28"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

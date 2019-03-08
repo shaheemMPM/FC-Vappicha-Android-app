@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">FC VAPPICHA</string>
+    <string name="copy_right">Made by LogicsLab © 2019</string>
+    <string name="team">THE TEAM</string>
+    <string name="fixture">FIXTURES</string>
+    <string name="matches">MATCHES</string>
+    <string name="players">PLAYERS</string>
+    <string name="scoreboard">SCOREBOARD</string>
+    <string name="about">ABOUT</string>
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="estd">ESTD 2018</string>
+    <string name="libr">Libraries</string>
+    <string name="licence">License</string>
+    <string name="picasso">https://github.com/square/picasso</string>
+    <string name="okhttp">https://jsoup.org</string>
+    <string name="apache">http://www.apache.org/licenses/LICENSE-2.0</string>
+    <string name="mit">https://jsoup.org/license</string>
+    <string name="music">https://www.zapsplat.com</string>
+    <string name="developed">Developed with ❤️ by</string>
+    <string name="myname">Mohammed Shaheem</string>
+    <string name="clgname">Govt. Engineering College Thrissur</string>
+    <string name="credits">Credits</string>
+    <string name="team_name">FC Vappicha</string>
+    <string name="fullName">Full name</string>
+    <string name="teamFullName">Football Club Vappicha</string>
+    <string name="nickName">Nick name</string>
+    <string name="shortName">Short name</string>
+    <string name="teamAbbreviation">FCV</string>
+    <string name="founded">Founded</string>
+    <string name="league">League</string>
+    <string name="leagueName">Gec Soccer League</string>
+    <string name="dateFound">23 November 2018</string>
+    <string name="share">Share the App</string>
+    <string name="rate">Rate the App</string>
+    <string name="ourinsta"><u>Official Instagram</u></string>
+    <string name="stringX">X</string>
+    <string name="str_teamwiki">Football Club of Vappicha (Pronunciation: fʊtˌbɔl klʌb əv vāppica), Known simply as FC Vappicha is a professional football club based in Thrissur, Kearala, Featuring in Gec Soccer League.</string>
+    <string name="noData">No Data Available</string>
+    <string name="ourmatch">Our Matches</string>
+
+    <!-- Fixture -->
+
+    <!--Match1  -->
+    <string name="timeMatch1">28&#8211;01&#8211;2019\n04:15 PM</string>
+    <string name="playMatch1">Sporting FC vs\nBrocode FC</string>
+
+    <!--Match2  -->
+    <string name="timeMatch2">28&#8211;01&#8211;2019\n05:00 PM</string>
+    <string name="playMatch2">FC Yakuza vs\nBarricade FC</string>
+
+    <!--Match3  -->
+    <string name="timeMatch3">29&#8211;01&#8211;2019\n04:15 PM</string>
+    <string name="playMatch3">Alkulth FC vs\nBekache FC</string>
+
+    <!--Match4  -->
+    <string name="timeMatch4">29&#8211;01&#8211;2019\n05:00 PM</string>
+    <string name="playMatch4">FC Vappicha vs\nKandam FC</string>
+
+    <!--Match5  -->
+    <string name="timeMatch5">30&#8211;01&#8211;2019\n04:15 PM</string>
+    <string name="playMatch5">Sporting FC vs\nFC Yakuza</string>
+
+    <!--Match6  -->
+    <string name="timeMatch6">30&#8211;01&#8211;2019\n05:00 PM</string>
+    <string name="playMatch6">Brocode FC vs\nBarricade FC</string>
+
+    <!--Match7  -->
+    <string name="timeMatch7">31&#8211;01&#8211;2019\n04:15 PM</string>
+    <string name="playMatch7">Alkulth FC vs\nKandam FC</string>
+
+    <!--Match8  -->
+    <string name="timeMatch8">31&#8211;01&#8211;2019\n05:00 PM</string>
+    <string name="playMatch8">FC Vappicha vs\nBekache FC</string>
+
+    <!--Match9  -->
+    <string name="timeMatch9">01&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch9">Sporting FC vs\nBarricade FC</string>
+
+    <!--Match10  -->
+    <string name="timeMatch10">01&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch10">Brocode FC vs\nFC Yakuza</string>
+
+    <!--Match11  -->
+    <string name="timeMatch11">02&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch11">FC Vappicha vs\nAlkulth FC</string>
+
+    <!--Match12  -->
+    <string name="timeMatch12">02&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch12">Kandam FC vs\nBekache FC</string>
+
+    <!--Match13  -->
+    <string name="timeMatch13">04&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch13">Sporting FC vs\nAlkulth FC</string>
+
+    <!--Match14  -->
+    <string name="timeMatch14">04&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch14">Brocode FC vs\nBekache FC</string>
+
+    <!--Match15  -->
+    <string name="timeMatch15">05&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch15">FC Yakuza vs\nKandam FC</string>
+
+    <!--Match16  -->
+    <string name="timeMatch16">05&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch16">FC Vappicha vs\nBarricade FC</string>
+
+    <!--Match17  -->
+    <string name="timeMatch17">06&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch17">Sporting FC vs\nBekache FC</string>
+
+    <!--Match18  -->
+    <string name="timeMatch18">06&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch18">Brocode FC vs\nAlkulth FC</string>
+
+    <!--Match19  -->
+    <string name="timeMatch19">07&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch19">Barricade FC vs\nKandam FC</string>
+
+    <!--Match20  -->
+    <string name="timeMatch20">07&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch20">FC Vappicha vs\nFC Yakuza</string>
+
+    <!--Match21  -->
+    <string name="timeMatch21">08&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch21">Kandam FC vs\nSporting FC</string>
+
+    <!--Match22  -->
+    <string name="timeMatch22">08&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch22">FC Vappicha vs\nBrocode FC</string>
+
+    <!--Match23  -->
+    <string name="timeMatch23">09&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch23">FC Yakuza vs\nAlkulth FC</string>
+
+    <!--Match24  -->
+    <string name="timeMatch24">09&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch24">Bekache FC vs\nBarricade FC</string>
+
+    <!--Match25  -->
+    <string name="timeMatch25">11&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch25">FC Vappicha vs\nSporting FC</string>
+
+    <!--Match26  -->
+    <string name="timeMatch26">11&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch26">Brocode FC vs\nKandam FC</string>
+
+    <!--Match27  -->
+    <string name="timeMatch27">12&#8211;02&#8211;2019\n04:15 PM</string>
+    <string name="playMatch27">Bekache FC vs\nFC Yakuza</string>
+
+    <!--Match28  -->
+    <string name="timeMatch28">12&#8211;02&#8211;2019\n05:00 PM</string>
+    <string name="playMatch28">Barricade FC vs\nAlkulth FC</string>
+
+    <!-- //Fixture -->
+
+    <string name="sreerag">SREERAG M</string>
+    <string name="sreerag_pos">Midfielder</string>
+    <string name="sreerag_dep">Computer Science</string>
+    <string name="sreerag_jer">16</string>
+
+    <string name="ramees">AHMED RAMEES</string>
+    <string name="ramees_pos">Midfielder</string>
+    <string name="ramees_dep">Chemical Engineering</string>
+    <string name="ramees_jer">17</string>
+
+    <string name="anandu">ANANDU</string>
+    <!--Anandu vareesh kumar-->
+    <string name="anandu_pos">Forward</string>
+    <string name="anandu_dep">Electronics</string>
+    <string name="anandu_jer">99</string>
+
+    <string name="adithya">ADITHYA P</string>
+    <string name="adithya_pos">Goalkeeper</string>
+    <string name="adithya_dep">Computer Science</string>
+    <string name="adithya_jer">1</string>
+
+    <string name="shabeel">SHABEEL</string>
+    <!--RWB-->
+    <!--MUHAMMED SHABEEL-->
+    <string name="shabeel_pos">Defender</string>
+    <string name="shabeel_dep">Civil Engineering</string>
+    <string name="shabeel_jer">12</string>
+
+    <string name="dharmajith">DHARAMJITH</string>
+    <string name="dharmajith_pos">Forward</string>
+    <string name="dharmajith_dep">Production Engineering</string>
+    <string name="dharmajith_jer">20</string>
+
+    <string name="arshad">ARSHAD</string>
+    <!--LWB-->
+    <string name="arshad_pos">Defender</string>
+    <string name="arshad_dep">Mechanical Engineering</string>
+    <string name="arshad_jer">2</string>
+
+    <string name="sudheesh">SUDHEESH M</string>
+    <string name="sudheesh_pos">Defender</string>
+    <string name="sudheesh_dep">Computer Science</string>
+    <string name="sudheesh_jer">10</string>
+
+    <string name="fayis">MOHAMED FAYIS</string>
+    <string name="fayis_pos">Forward</string>
+    <string name="fayis_dep">Chemical Engineering</string>
+    <string name="fayis_jer">9</string>
+
+    <string name="rex">RAKESH</string>
+    <string name="rex_pos">Forward</string>
+    <string name="rex_dep">Mechanical Engineering</string>
+    <string name="rex_jer">7</string>
+
+    <string name="vyshnav">VYSHNAV</string>
+    <string name="vyshnav_pos">Defender</string>
+    <string name="vyshnav_dep">Chemical Engineering</string>
+    <string name="vyshnav_jer">4</string>
+
+    <string name="jayaprakash">JAYAPRAKASH</string>
+    <string name="jayaprakash_pos">Forward</string>
+    <string name="jayaprakash_dep">Mechanical Engineering</string>
+    <string name="jayaprakash_jer">11</string>
+</resources>

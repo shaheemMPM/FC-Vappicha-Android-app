@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "916084952675",
+    "firebase_url": "https://fcvappicha.firebaseio.com",
+    "project_id": "fcvappicha",
+    "storage_bucket": "fcvappicha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916084952675:android:46267af9859ae937",
+        "android_client_info": {
+          "package_name": "com.logicslab.fcvappicha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916084952675-910gv6ji05h33isgrga3niqce0jtj34v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logicslab.fcvappicha",
+            "certificate_hash": "2bb44519720ce6f7ece5f1c8ddcdf9c3ad50bbbf"
+          }
+        },
+        {
+          "client_id": "916084952675-s4t81g1h23rjohmjop37fvb25nooiidg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQfI3rOPwnmB1a4jBGgz4g_wr7vYE50is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916084952675-s4t81g1h23rjohmjop37fvb25nooiidg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

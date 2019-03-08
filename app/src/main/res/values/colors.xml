@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D5077</color>
+    <color name="colorPrimaryDark">#00284B</color>
+    <color name="colorAccent">#1D5077</color>
+    <color name="colorPrimaryBackground">#F1F3F6</color>
+    <color name="colorPrimaryText">#050505</color>
+    <color name="colorAshText">#AAAAAA</color>
+    <color name="logoBgSend">#0D1E31</color>
+    <color name="colorLightBg">#DBDBDB</color>
+    <color name="pureBlue">#0000FF</color>
+    <color name="pureBlack">#000000</color>
+    <color name="teamText">#222222</color>
+    <color name="lineSeparator">#969DC5</color>
+    <color name="teamInfoBox">#F8F9FA</color>
+    <color name="infoBoxBorder">#EAECF0</color>
+    <color name="winGreen">#309913</color>
+    <color name="loseRed">#DD1A1A</color>
+    <color name="drawGray">#D4D8DD</color>
+    <color name="fafa">#FAFAFA</color>
+    <!--color light #517ca6-->
+</resources>
